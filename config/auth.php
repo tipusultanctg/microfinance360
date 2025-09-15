@@ -40,6 +40,10 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'sanctum' => [ // You can rename 'api' to 'sanctum' for clarity
+           'driver' => 'sanctum',
+           'provider' => 'users',
+        ],
     ],
 
     /*
